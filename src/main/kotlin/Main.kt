@@ -30,7 +30,7 @@ fun main(){
     catalog.printCatalog()
     val product=catalog.getProductByName("Shampoo")
     if(product!=null)
-        println("\nProduct details of Shampoo: ${product.name}  ${product.price}")
+        println("\nProduct details of Shampoo: ${product.id} ${product.name}  ${product.price}")
     else
         println("product not found")
 }
